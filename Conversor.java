@@ -8,14 +8,19 @@ public class Conversor {
 	private final static double MB_A_ATM = 0.00098;
 	private final static double KAL_A_JULIOS = 4.184;
 
+	public static double redondear(double num) {
 
-//Atmosferas a milibares
+		return Math.round(num * 100) / 100.0;
+	}
+
+	
+
 	public static double atmosferas(double milibares) {
 
 		return redondear(milibares * MB_A_ATM) ;
 	}
 	
-//Milibares a Atmosferas
+
 	public static double milibares(double atmosferas) {
 
 		return redondear( atmosferas / MB_A_ATM) ;
@@ -24,8 +29,5 @@ public class Conversor {
 	
 	
 
-	public static double redondear(double num) {
 
-		return Math.round(num * 100) / 100.0;
-	}
 }
