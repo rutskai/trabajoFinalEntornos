@@ -8,7 +8,7 @@ public class Conversor {
 	private final static double KAL_A_JULIOS= 4.184;
 	
 	//Redondea.
-		static double redondear(double num){
+	public	static double redondear(double num){
 
 			return Math.round(num*100)/100.0;
 			
