@@ -8,8 +8,6 @@ public class Conversor {
 	private final static double MB_A_ATM = 0.00098;
 	private final static double KAL_A_JULIOS = 4.184;
 
-	public Conversor() {
-	}
 
 //Atmosferas a milibares
 	public static double atmosferas(double milibares) {
